@@ -290,7 +290,7 @@ const commitMessage = {
   message: "Write a commit message:",
   maxLength: 70,
   filter(input, answers) {
-    return `${answers.commitType}: ${input}`;
+    return `${answers.commitType} ${input}`;
   },
   transformer(input, answers) {
     return chalk.green(`${answers.commitType} `) + input;
@@ -298,6 +298,6 @@ const commitMessage = {
 };
 
 inquirer.prompt([commitType, commitMessage]).then((answers) => {
-  const commit = `${answers.commitType} ${answers.commitMessage}`;
+  const commit = `${answers.commitMessage}`;
   return git.commit(commit);
 });
