@@ -37,6 +37,8 @@
 
 <br>
 
+<div align="start">
+
 ## :dart: About
 
 A lightweight git emoji tool with customized conventional commits
@@ -65,3 +67,5 @@ Made with :heart: by <a href="https://github.com/w1redl4in" target="_blank">Feli
 &#xa0;
 
 <a href="#top">Back to top</a>
+
+</div>
