@@ -1,11 +1,7 @@
-<div align="center" id="top"> 
-  <img src="https://pbs.twimg.com/media/FFMk3PWXsAErJ8W?format=jpg&name=large" alt="git-emoji-cli" />
-
-&#xa0;
-
-</div>
-
 <h1 align="center">git-emoji-cli</h1>
+
+<div align="center" id="top"> 
+  <img src="/src/assets/git-emoji-cli.gif" alt="git-emoji-cli" />
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/w1redl4in/git-emoji-cli?color=56BEB8">
