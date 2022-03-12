@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const inquirer = require("inquirer");
 const simpleGit = require("simple-git");
 
@@ -9,7 +11,6 @@ const options = {
   maxConcurrentProcesses: 6,
 };
 
-// when setting all options in a single object
 const git = simpleGit(options);
 
 const commits = [
