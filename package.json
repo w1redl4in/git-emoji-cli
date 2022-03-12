@@ -1,0 +1,28 @@
+{
+  "name": "git-emoji-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^8.2.1",
+    "inquirer-maxlength-input-prompt": "^1.0.2",
+    "inquirer-search-list": "^1.2.6",
+    "simple-git": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1redl4in/git-emoji-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w1redl4in/git-emoji-cli/issues"
+  },
+  "homepage": "https://github.com/w1redl4in/git-emoji-cli#readme"
+}
