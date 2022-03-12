@@ -2,8 +2,15 @@
 
 const inquirer = require("inquirer");
 const simpleGit = require("simple-git");
+const chalk = require("chalk");
 
 simpleGit().clean(simpleGit.CleanOptions.FORCE);
+
+inquirer.registerPrompt("search-list", require("inquirer-search-list"));
+inquirer.registerPrompt(
+  "maxlength-input",
+  require("inquirer-maxlength-input-prompt")
+);
 
 const options = {
   baseDir: process.cwd(),
@@ -270,17 +277,24 @@ const commits = [
 ];
 
 const commitType = {
-  type: "list",
+  type: "search-list",
   name: "commitType",
   value: "",
-  message: "Choose a commit:",
+  message: "Choose a commit type:",
   choices: commits,
 };
 
 const commitMessage = {
-  type: "input",
+  type: "maxlength-input",
   name: "commitMessage",
-  message: "Please insert a commit message.",
+  message: "Write a commit message:",
+  maxLength: 70,
+  filter(input, answers) {
+    return `${answers.commitType}: ${input}`;
+  },
+  transformer(input, answers) {
+    return chalk.green(`${answers.commitType} `) + input;
+  },
 };
 
 inquirer.prompt([commitType, commitMessage]).then((answers) => {
