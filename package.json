@@ -18,8 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/w1redl4in/git-emoji-cli.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "emoji",
+    "git"
+  ],
+  "author": "w1redl4in",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/w1redl4in/git-emoji-cli/issues"
