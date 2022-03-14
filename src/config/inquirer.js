@@ -1,5 +1,5 @@
 const chalk = require("chalk");
-const { commits } = require("./utils/commits");
+const { commits } = require("../utils/commits");
 
 const commitType = {
   type: "search-list",
