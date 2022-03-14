@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/w1redl4in/git-emoji-cli/issues"
   },
-  "homepage": "https://github.com/w1redl4in/git-emoji-cli#readme"
+  "homepage": "https://github.com/w1redl4in/git-emoji-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
