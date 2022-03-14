@@ -1,6 +1,6 @@
 {
   "name": "git-emoji-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A lightweight git emoji tool with customized conventional commits",
   "main": "index.js",
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w1redl4in/git-emoji-cli.git"
+    "url": "https://github.com/w1redl4in/git-emoji-cli.git"
   },
   "keywords": [
     "emoji",
