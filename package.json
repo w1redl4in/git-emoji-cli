@@ -1,6 +1,6 @@
 {
   "name": "git-emoji-cli",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "A lightweight git emoji tool with customized conventional commits",
   "main": "index.js",
   "dependencies": {
@@ -10,9 +10,12 @@
     "inquirer-search-list": "^1.2.6",
     "simple-git": "^3.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
