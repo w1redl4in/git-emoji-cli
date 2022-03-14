@@ -1,7 +1,7 @@
 {
   "name": "git-emoji-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight git emoji tool with customized conventional commits",
   "main": "index.js",
   "dependencies": {
     "chalk": "^2.4.1",
@@ -10,7 +10,13 @@
     "inquirer-search-list": "^1.2.6",
     "simple-git": "^3.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "inquirer-test": "^2.0.1",
+    "jest": "^27.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
