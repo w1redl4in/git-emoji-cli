@@ -36,12 +36,12 @@
             "release": "minor"
           },
           {
-            "type": "feat",
+            "type": "feat:",
             "scope": "core-*",
             "release": "minor"
           },
           {
-            "type": "chore",
+            "type": "chore:",
             "scope": "core-*",
             "release": "minor"
           },
