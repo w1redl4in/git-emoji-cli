@@ -13,8 +13,14 @@ function initialize() {
   const { git, inquirer } = configure();
 
   return inquirer.prompt([commitType, commitMessage]).then((answers) => {
-    const commit = `${answers.commitMessage}`;
-    return git.commit(commit);
+    const { commitMessage } = answers;
+
+    return git
+      .outputHandler((_, stdout, stderr) => {
+        stdout.pipe(process.stdout);
+        stderr.pipe(process.stderr);
+      })
+      .commit(commitMessage);
   });
 }
 
