@@ -1,4 +1,4 @@
-const { configureInquirer } = require("./inquirer");
+const { configureInquirer, commitType, commitMessage } = require("./inquirer");
 const { configureGit } = require("./simple-git");
 
 function configure() {
@@ -12,7 +12,7 @@ function configure() {
 function initialize() {
   const { git, inquirer } = configure();
 
-  inquirer.prompt([commitType, commitMessage]).then((answers) => {
+  return inquirer.prompt([commitType, commitMessage]).then((answers) => {
     const commit = `${answers.commitMessage}`;
     return git.commit(commit);
   });
