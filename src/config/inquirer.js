@@ -1,4 +1,5 @@
 const chalk = require("chalk");
+const inquirer = require("inquirer");
 const { commits } = require("../utils/commits");
 
 const commitType = {
@@ -22,4 +23,14 @@ const commitMessage = {
   },
 };
 
-module.exports = { commitType, commitMessage };
+function configureInquirer() {
+  inquirer.registerPrompt("search-list", require("inquirer-search-list"));
+  inquirer.registerPrompt(
+    "maxlength-input",
+    require("inquirer-maxlength-input-prompt")
+  );
+
+  return inquirer;
+}
+
+module.exports = { commitType, commitMessage, configureInquirer };
