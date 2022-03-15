@@ -17,6 +17,25 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
   },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "dist/asset.min.css",
+            "label": "CSS distribution"
+          },
+          {
+            "path": "dist/asset.min.js",
+            "label": "JS distribution"
+          }
+        ]
+      }
+    ]
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/w1redl4in/git-emoji-cli.git"
