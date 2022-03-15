@@ -18,6 +18,12 @@
     "semantic-release": "semantic-release"
   },
   "plugins": [
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
     [
@@ -50,12 +56,6 @@
             "release": "patch"
           }
         ]
-      }
-    ],
-    [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "CHANGELOG.md"
       }
     ],
     [
