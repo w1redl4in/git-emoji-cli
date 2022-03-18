@@ -99,11 +99,6 @@ const commits = [
 
   // STYLE
   {
-    name: "style: 🎨 Improve structure / format of the code.",
-    emoji: "🎨",
-    value: "style: :art:",
-  },
-  {
     name: "style: 💄 Add or update the UI and style files.",
     emoji: "💄",
     value: "style: :lipstick:",
@@ -134,6 +129,11 @@ const commits = [
   },
 
   // CHORE
+  {
+    name: "chore: 🎨 Improve structure / format of the code.",
+    emoji: "🎨",
+    value: "style: :art:",
+  },
   {
     name: "chore: 🔥 Remove code or files.",
     emoji: "🔥",
