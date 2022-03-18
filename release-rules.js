@@ -1,7 +1,7 @@
 module.exports = [
-  { type: "docs", release: "patch" },
-  { type: "refactor", release: "minor" },
-  { type: "feat", release: "minor" },
-  { type: "chore", release: "minor" },
-  { type: "fix", release: "patch" },
+  { type: "docs", scope: "", release: "patch" },
+  { type: "refactor", scope: "", release: "minor" },
+  { type: "feat", scope: "", release: "minor" },
+  { type: "chore", scope: "", release: "minor" },
+  { type: "fix", scope: "", release: "patch" },
 ];
