@@ -30,32 +30,7 @@
       "@semantic-release/commit-analyzer",
       {
         "preset": "conventionalcommits",
-        "releaseRules": [
-          {
-            "type": "docs",
-            "scope": "README",
-            "release": "patch"
-          },
-          {
-            "type": "refactor",
-            "scope": "core-*",
-            "release": "minor"
-          },
-          {
-            "type": "feat:",
-            "scope": "core-*",
-            "release": "minor"
-          },
-          {
-            "type": "chore:",
-            "scope": "core-*",
-            "release": "minor"
-          },
-          {
-            "type": "refactor",
-            "release": "patch"
-          }
-        ]
+        "releaseRules": "./release-rules.js"
       }
     ],
     [
