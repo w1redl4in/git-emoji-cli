@@ -1,7 +1,7 @@
 const simpleGit = require("simple-git");
 
 function configureGit() {
-  simpleGit().clean(simpleGit.CleanOptions.FORCE);
+  // simpleGit().clean(simpleGit.CleanOptions.FORCE);
 
   const options = {
     baseDir: process.cwd(),
