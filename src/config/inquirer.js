@@ -7,6 +7,7 @@ const scope = {
   type: "input",
   name: "scope",
   message: "Scope of the commit?",
+  maxLength: 15,
 };
 
 const commitType = {
