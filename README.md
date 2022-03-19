@@ -10,13 +10,8 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/w1redl4in/git-emoji-cli?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/w1redl4in/git-emoji-cli?color=56BEB8">
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/w1redl4in/git-emoji-cli?color=56BEB8" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/w1redl4in/git-emoji-cli?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/w1redl4in/git-emoji-cli?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/commit-activity/m/w1redl4in/git-emoji-cli" />
+  <img alt="Github stars" src="https://img.shields.io/npm/dw/git-emoji-cli" />
 </p>
 
  <h4 align="center">
@@ -46,7 +41,7 @@ A lightweight git emoji tool with customized conventional commits
 ## :sparkles: Features
 
 :heavy_check_mark: List with 20+ customized commits\
-:heavy_check_mark: Search commit list with input value\
+:heavy_check_mark: Search commit list with input value
 
 ## :rocket: Technologies
 
@@ -57,6 +52,24 @@ The following tools were used in this project:
 ## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :chart_with_upwards_trend: How to use
+
+Either `npx` or installing globally on your machine:
+
+using with npx:
+
+```shell
+$ npx git-emoji-cli
+```
+
+installing:
+
+```shell
+npm i -g git-emoji-cli
+
+git-emoji-cli
+```
 
 ## :memo: License
 
