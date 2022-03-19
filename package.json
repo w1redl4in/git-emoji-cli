@@ -29,7 +29,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "convetionalcommits",
+        "preset": "angular",
         "releaseRules": "./release-rules.js"
       }
     ],
