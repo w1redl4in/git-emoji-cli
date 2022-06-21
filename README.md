@@ -75,7 +75,7 @@ $ gec
 
 ## :fire: Usage with lazygit
 
-Open lazygit and press `o`on Status tab, it'll open the `config.yaml`
+Open lazygit and press `o`on Status tab, it'll open the `config.yaml`\
 Example using `shift+c` hotkey
 
 ```yaml
