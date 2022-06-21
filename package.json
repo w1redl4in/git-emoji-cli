@@ -10,6 +10,9 @@
     "inquirer-search-list": "^1.2.6",
     "simple-git": "^3.3.0"
   },
+  "bin": {
+    "gec": "src/index.js"
+  },
   "devDependencies": {
     "semantic-release": "^19.0.2"
   },
