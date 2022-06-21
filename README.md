@@ -51,7 +51,7 @@ The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
 
-## :white_check_mark: Requirements
+## :white_check_mark: Requirementss3
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
@@ -71,6 +71,19 @@ installing:
 $ npm i -g git-emoji-cli
 
 $ gec
+```
+
+## :fire: Usage with lazygit
+
+using `shift+c` hotkey
+
+```yaml
+customCommands:
+  - key: "C"
+    command: "npx git-emoji-cli"
+    context: "files"
+    loadingText: "Opening git-emoji-cli tool"
+    subprocess: true
 ```
 
 ## :memo: License
