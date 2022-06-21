@@ -40,9 +40,9 @@ A lightweight git emoji tool with customized conventional commits
 
 ## :sparkles: Features
 
-:heavy_check_mark: Scope of the commit
+:heavy_check_mark: Scope of the commit\
 :heavy_check_mark: List with 20+ customized commits\
-:heavy_check_mark: Search commit list with input value
+:heavy_check_mark: Search commit list with input value\
 :heavy_check_mark: Log post-commit process like tests
 
 ## :rocket: Technologies
