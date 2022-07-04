@@ -1,12 +1,15 @@
 const chalk = require("chalk");
 const inquirer = require("inquirer");
 const { commits } = require("../utils/commits");
-const { addScopeToCommit } = require("../utils/add-scope-to-commit");
+const {
+  addScopeToCommit,
+  DecideToUseScopeOrNot,
+} = require("../utils/add-scope-to-commit");
 
 const scope = {
   type: "input",
   name: "scope",
-  message: "Scope of the commit?",
+  message: "Scope of the commit? (Empty for no scope)",
   maxLength: 15,
 };
 
@@ -24,11 +27,11 @@ const commitMessage = {
   message: "Write a commit message:",
   maxLength: 100,
   filter(input, answers) {
-    return addScopeToCommit(answers.commitType, answers.scope, input);
+    return DecideToUseScopeOrNot(answers.commitType, answers.scope, input);
   },
   transformer(input, answers) {
     return chalk.green(
-      addScopeToCommit(answers.commitType, answers.scope, input)
+      DecideToUseScopeOrNot(answers.commitType, answers.scope, input)
     );
   },
 };
