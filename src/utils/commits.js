@@ -26,6 +26,11 @@ const commits = [
     value: "feat: :beers:",
   },
   {
+    name: "feat: 💬 Add or update text and literals..",
+    emoji: "🍻",
+    value: "feat: :beers:",
+  },
+  {
     name: "feat: 🔊 Add or update logs.",
     emoji: "🔊",
     value: "feat: :loud_sound:",
