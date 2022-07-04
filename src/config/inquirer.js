@@ -1,10 +1,7 @@
 const chalk = require("chalk");
 const inquirer = require("inquirer");
 const { commits } = require("../utils/commits");
-const {
-  addScopeToCommit,
-  DecideToUseScopeOrNot,
-} = require("../utils/add-scope-to-commit");
+const { DecideToUseScopeOrNot } = require("../utils/scope");
 
 const scope = {
   type: "input",
