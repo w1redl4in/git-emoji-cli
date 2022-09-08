@@ -52,6 +52,11 @@ const commits = [
     emoji: "🧪",
     value: "test: :test_tube:",
   },
+  {
+    name: "test: 📸 Update snapshot",
+    emoji: "📸",
+    value: "test: :camera_flash:",
+  },
 
   // FIXES
   {
