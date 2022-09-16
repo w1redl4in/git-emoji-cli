@@ -262,6 +262,11 @@ const commits = [
     emoji: "🙈",
     value: "chore: :see_no_evil:",
   },
+  {
+    name: "ci: 👷 Add or update CI build system",
+    emoji: "👷",
+    value: "ci: :construction_worker:",
+  },
 ];
 
 module.exports = { commits };
