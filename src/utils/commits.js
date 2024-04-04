@@ -40,7 +40,21 @@ const commits = [
     emoji: "👔",
     value: "feat: :necktie:",
   },
-
+  {
+    name: "feat: 🦺 Add or update code related to validation.",
+    emoji: "🦺",
+    value: "feat: :safety_vest:",
+  },
+  {
+    name: "feat: 🏷️  Add or update types.",
+    emoji: "🏷️",
+    value: "feat: :label:",
+  },
+  {
+    name: "feat: 🛂 Work on code related to authorization, roles and permissions.",
+    emoji: "🛂",
+    value: "feat: :passport_control:",
+  },
   // TESTS
   {
     name: "test: ✅ Add, update, or pass tests.",
